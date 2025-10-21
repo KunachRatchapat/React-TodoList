@@ -19,7 +19,7 @@ const HomePage = () => {
             {
 
                 todos.map((todo,i) =>(
-                    <TodoItem key={i} todo={todo} />
+                    <TodoItem key={i} id={i} todo={todo} />
                 ))
             }
 
